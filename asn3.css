@@ -1,0 +1,143 @@
+body{
+background-color: white;
+overflow-x: hidden;
+ 
+}
+#pigimg{
+  position:relative;
+  top:-20px;
+  left:20px;
+  height:100px;
+  width:100px;
+}
+#pigheader{
+  height:150px;
+}
+#headertext{
+  position: relative;
+  top:-140px;
+  left:145px;
+  font-family: Trattatello, fantasy;
+  font-size: 50px;
+}
+#pign{
+  color:rgb(245, 128, 147);
+}
+#line{
+  background-color:rgb(245, 128, 147);
+  height: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  top:-160px;
+  left:5px;
+}
+h1{
+  height:100px;
+  margin-bottom:10px;
+  /* background-color: rgb(173, 71, 71); */
+}
+#selectpigimg{
+  position:absolute;
+  left:600px;
+  display:none;
+}
+#scale{
+  height:100px;
+  width: 100px;
+  position:absolute;
+  left:850px;
+  display:none;
+  z-index:1;
+}
+#ruler{
+  height:300px;
+  width: 80px;
+  position:absolute;
+  left:1100px;
+  top:300px;
+  display:none;
+
+}
+#lan{
+  position:absolute;
+  font-weight:bold;
+  font-family: sans-serif;
+  left:650px;
+  top:200px;
+  z-index: 4;
+  display:none;
+
+
+
+}
+
+#imgname{
+  font-size: 30px;
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  position:absolute;
+  left:830px;
+  top:350px;
+  z-index: 1;
+  display: none;
+}
+#skillimg{
+  height:80px;
+  width:80px;
+  position:absolute;
+  left:600px;
+  top:170px;
+  display: none;
+}
+#skills{
+
+    position:absolute;
+    font-weight:bold;
+    font-family: sans-serif;
+    left:690px;
+    top:200px;
+    z-index: 3;
+    display: none;
+
+  
+}
+#wVal{
+  position:absolute;
+  font-weight:bold;
+  font-family: sans-serif;
+  left:885px;
+  top:210px;
+  z-index: 3;
+  display:none;
+}
+#hVal{
+  position:absolute;
+  font-weight:bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  left:1160px;
+  top:400px;
+  z-index: 3;
+  display:none;
+}
+table, th, td {
+    border: 1px solid;
+}
+
+.addinput{
+
+  display: block;
+  position:relative;
+    top:15px;
+    
+  
+}
+
+#mainTb,#add,#addTb,#infoTable{
+  position:relative;
+  left:20px;
+}
+#addTb{
+  display:none;
+  width: 298px;
+}

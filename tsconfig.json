@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target":"ES6",
+        "module": "system",
+        "strict": true
+    },
+    
+    "files":["pig.ts","main.ts","services.ts"]
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>CMPT272 Assignment 3 </title>
+    <link rel="stylesheet" href="asn3.css">
+    <script src="main.js"></script>
+    <script src="pig.js"></script>
+    <script src="services.js"></script>
+    <meta charset="UTF-8">
+  </head>
+  
+    <body>
+      <header id="pigheader">
+        <img id ="pigimg" src="pig.png" alt="HeaderPigIMG">
+        <h1 id="headertext">Fall 2022 Hoggett's <span id="pign">Pig</span> Farm
+        </h1>
+        <div id="line">  </div>
+   
+      </header>
+      <p id="imgname">"Name"</p>
+      <img id="scale" src="scale.png" alt="scaleIMG">
+      <p id="wVal">???</p>
+      <img id="ruler" src="ruler.jpeg" alt="rulerIMG">
+      <p id="hVal">???</p>
+      <img id="selectpigimg" src="pig.png" alt="SelectedPigIMG">
+      <p id="skills">???</p>
+      <img id="skillimg" src="abc.png" alt="SelectedSkillIMG">
+      <p id = "lan">???</p>
+
+
+      <table id= "mainTb">
+        <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th id="skill"></th>
+        <th></th>
+      </tr>
+     
+
+     
+      
+  </table>
+      <button type="button" id = "add">Add Pig</button>
+      
+      <table id = "addTb">
+        <tr>
+        <th>Name</th>
+        <td> <input class="addinput" type="text" id="name" name="name" value=""><br><br></td>
+      </tr>
+      <tr>
+        <th>Height</th>
+        <td> <input class="addinput" type="number" id="height" name="height" ><br><br></td>
+      </tr>
+      <tr>
+        <th>Weight</th>
+        <td><input class="addinput" type="number" id="weight" name="weight" ><br><br></td>
+        </tr>
+        <tr>
+          <th>Personality</th>
+          <td><input class="addinput" type="text" id="personality" name="personality" value=""><br><br></td>
+        </tr>
+    <tr>
+    <th>Category</th> 
+    <td><select id="category" name="category" >
+        <option  value="" selected="selected">Select pig category</option>
+        <option value="White" >White</option>
+        <option value="Black" >Black</option>
+        <option value="Chestnut" >Chestnut</option>
+        <option value="Grey">Grey</option>
+      </select>
+      
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+      <th>Breed</th>
+      <td> <select name="breed" id="breed">
+        <option value="" selected="selected">Please select pig category first</option>
+      </select>
+      <br><br>
+    </td>
+    </tr>
+    <tr>
+      <th id ="skillName"></th>
+      <td> 
+        <input class="addinput" type="number" id="skillVal" name="skillVal" >
+      
+      <br><br>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" value="Submit" id="submit">  
+      </td>
+     
+    </tr>
+    
+   
+    
+  </table>
+ 
+
+
+
+
+  </body>
